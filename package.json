@@ -1,0 +1,13 @@
+{
+	"name":"typescript-dev-skeleton",
+	"version":"1.0.0",
+	"type":"module",
+	"scripts": {
+		"build":"tsc",
+		"start":"node dist/index.js",
+		"dev":"tsc --watch"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	}
+}
